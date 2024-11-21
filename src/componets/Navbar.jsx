@@ -1,7 +1,8 @@
+import css from './Navbar.module.css'
 function Navbar() {
     return (
-        <nav className="nav">
-            <div>
+        <nav className={css.nav}>
+            <div className="item">
                 <a href="#"> Profile </a>
             </div>
             <div>

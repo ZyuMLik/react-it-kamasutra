@@ -1,0 +1,16 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(184, 120, 245);
+  }
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    
+  }
+
+  .nav a:hover {
+    color: gold;
+    text-decoration: none;
+    
+  }
