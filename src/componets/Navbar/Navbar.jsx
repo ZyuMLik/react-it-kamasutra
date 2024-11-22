@@ -1,21 +1,22 @@
 import css from './Navbar.module.css'
+
 function Navbar() {
     return (
         <nav className={css.nav}>
-            <div className="item">
-                <a href="#"> Profile </a>
+            <div>
+                <a href="/profile"> Profile </a>
             </div>
             <div>
-                <a href="#"> Messages </a>
+                <a href="/dialogs"> Messages </a>
             </div>
             <div>
-                <a href="#"> News </a>
+                <a> News </a>
             </div>
             <div>
-                <a href="#"> Music </a>
+                <a> Music </a>
             </div>
             <div>
-                <a href="#"> Settings </a>
+                <a> Settings </a>
             </div>
         </nav>
     );

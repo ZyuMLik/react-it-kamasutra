@@ -10,8 +10,8 @@ function MyPost(props) {
                 <button>Add post</button>
             </div>
             <div className={css.posts}>
-                <Post message="Привет, как ты?" likes="10"/>
-                <Post message="Это мой первый пост" likes="15"/>
+                <Post message="Привет, как ты?" likesCount="10"/>
+                <Post message="Это мой первый пост" likesCount="15"/>
             </div>
         </div>
             
